@@ -1,11 +1,10 @@
-/* Variables */
 $color-primary: #9356DC;
 $color-secondary: #FF79DA;
 $color-tertiary: #99E2D0;
 
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0px;
+    margin: 0;
     display: flex;
 }
 
@@ -29,6 +28,13 @@ header {
     .logo {
         margin: auto;
     }
-    
+}
 
+main {
+    width: 100%;
+}
+
+.location {
+    display: flex;
+    
 }
