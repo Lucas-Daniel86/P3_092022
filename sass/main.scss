@@ -173,10 +173,10 @@ main {
             flex-direction: column;
             height: 200px;
             position : relative;
-            box-shadow: 0 0 10px 2px rgba (0,0,0,0.3);
+            box-shadow: 0 0 10px 2px rgba(0,0,0,0.3);
             &:hover {
                 transition: .5;
-                transform: scale (1.02);
+                transform: scale(1.02)
             }
         }
     }
@@ -272,4 +272,30 @@ footer {
 }
 .p_footer {
     padding-left: 5px;
+}
+
+/* Desktop et tablette */
+@media only screen and (min-width:668px){
+    .section_function {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .list_function {
+            width: 60%;
+        }
+    }
+
+    .section_restaurant {
+        align-items: center;
+    }
+    .list_restaurants {
+        flex-direction: row;
+        width: 90%;
+        a {
+            margin: 14px;
+        }
+    }
+    footer {
+        align-items: center;
+    }
 }
