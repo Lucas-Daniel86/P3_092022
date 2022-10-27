@@ -1,0 +1,13 @@
+/*--- Mixins ---*/
+@mixin headers {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    box-shadow: 0 0 5px 0;
+}
+
+@mixin logos {
+    height: 30px;
+    margin: 20px;
+}
