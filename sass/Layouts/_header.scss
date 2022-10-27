@@ -1,0 +1,22 @@
+/* Headers */
+
+header {
+    @include headers;
+    .logo {
+        @include logos;
+    }
+}
+
+/* Menus */
+
+.header_menu {
+    @include headers;
+    .logo_menu {
+        @include logos;
+    }
+    a {
+        position: absolute;
+        left: 20px;
+        top: 23px;
+    }
+}
