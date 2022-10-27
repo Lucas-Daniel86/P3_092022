@@ -1,0 +1,35 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-footer;
+    width: 100%;
+    padding-bottom: 30px;
+    h3 {
+        font-family: 'Shrikhand', cursive;
+        color: $color-text-button;
+        font-size: 80%;
+        margin: 15px 0 15px 15px;
+    }
+    .block_link_footer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        a {
+            display: flex;
+            align-items: center;
+            color: $color-text-button;
+            font-size: 75%;
+            margin: 0 0 5px 0;
+            i {
+                font-size: 10px;
+                width: 10px;
+            }
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
+.p_footer {
+    padding-left: 5px;
+}
