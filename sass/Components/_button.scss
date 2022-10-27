@@ -1,0 +1,32 @@
+.btn-search {
+    height: 50px;
+    width: 250px;
+    border: none;
+    cursor: pointer;
+    background: $gradient;
+    color: $color-text-button;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+    &:hover {
+        background: lighten($color-secondary, 2%);
+        box-shadow: 4px 6px 10px $color-text;
+        transition: 500ms;
+    }
+}
+
+.btn-order {
+    margin: 20px auto 70px auto;
+    height: 50px;
+    width: 250px;
+    border: none;
+    cursor: pointer;
+    background: $gradient;
+    color: $color-text-button;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    &:hover {
+        background: lighten($color-secondary, 2%);
+        box-shadow: 4px 6px 10px $color-text;
+        transition: 500ms;
+    }
+}
