@@ -4,7 +4,8 @@
   "description": "Dynamisez une page web avec des animations CSS",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+    "sass": "sass --watch ./sass/main.scss:./css/style.css",
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
   },
   "repository": {
     "type": "git",
@@ -12,11 +13,16 @@
   },
   "author": "",
   "license": "ISC",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/Lucas-Daniel86/P3_092022/issues"
   },
   "homepage": "https://github.com/Lucas-Daniel86/P3_092022#readme",
   "dependencies": {
+    "autoprefixer": "^10.4.12",
+    "g": "^2.0.1",
+    "postcss": "^8.4.18",
+    "postcss-cli": "^10.0.0",
     "sass": "^1.55.0"
   }
 }
