@@ -1,0 +1,26 @@
+/* Desktop et tablette */
+@media only screen and (min-width:768px){
+    .search {
+        height: 226px;
+    }
+    .section_function {
+        align-items: center;
+        .list_function {
+            justify-content: space-around;
+            flex-direction: unset;
+            margin-left: 0;
+        }
+    }
+    .section_title {
+        margin-left: 0;
+    }
+    .section_restaurant {
+        align-items: center;
+        .list_restaurants {
+            flex-direction: row;
+        }
+    }
+    footer {
+        align-items: center;
+    }
+}
