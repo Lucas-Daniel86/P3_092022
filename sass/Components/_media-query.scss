@@ -20,7 +20,32 @@
             flex-direction: row;
         }
     }
+    .menu {  
+        .block_menu {
+            h2 {
+                margin: 9px;
+            } 
+            .block_choise {
+                flex-direction: row;
+                gap: 2%;
+                .choise_menu {
+                    height: 73px;
+                }
+            }
+        }
+    }
+
+    .btn-order {
+        margin: 20px auto;
+    }
+
     footer {
-        align-items: center;
+        h3 {
+            align-self: center;
+        }
+        .block_link_footer {
+            flex-direction: row;
+            gap: 23%;
+        }
     }
 }
