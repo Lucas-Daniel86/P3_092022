@@ -11,3 +11,9 @@
     height: 30px;
     margin: 20px;
 }
+
+@mixin hover-btn {
+    background: lighten($color-secondary, 2%);
+    box-shadow: 4px 6px 10px $color-text;
+    transition: 500ms;
+}
