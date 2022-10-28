@@ -10,7 +10,7 @@
     justify-content: center;
     background: $color-bg;
     opacity: 0.9;
-    animation: dissapear 0.1s 3s forwards;
+    animation: dissapear 0.1s 3s both;
     &::after {
         content: "";
         width: 75px;
