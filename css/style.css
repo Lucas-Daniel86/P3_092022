@@ -544,6 +544,9 @@ footer .block_link_footer a p {
   .menu .block_menu .block_choise .choise_menu {
     height: 73px;
   }
+  .menu .block_menu .block_choise .choise_menu .menu_valide i {
+    margin-top: 20px;
+  }
   .btn-order {
     margin: 20px auto;
   }
